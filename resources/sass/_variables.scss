@@ -1,0 +1,65 @@
+// Body
+$body-bg: #f8fafc;
+// Font Awesome
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+// Typography
+$font-family-sans-serif: "Nunito",
+sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$nav-link-padding-y: .5rem;
+$nav-link-padding-x: 1rem;
+$nav-link-font-size: null;
+$nav-link-font-weight: null;
+$nav-link-color: $link-color;
+$nav-link-hover-color: $link-hover-color;
+$nav-link-transition: color .15s ease-in-out,
+background-color .15s ease-in-out,
+border-color .15s ease-in-out;
+$nav-link-disabled-color: $gray-600;
+$nav-tabs-border-color: $gray-300;
+$nav-tabs-border-width: $border-width;
+$nav-tabs-border-radius: $border-radius;
+$nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color;
+$nav-tabs-link-active-color: $gray-700;
+$nav-tabs-link-active-bg: $body-bg;
+$nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg;
+$nav-pills-border-radius: $border-radius;
+$nav-pills-link-active-color: $component-active-color;
+$nav-pills-link-active-bg: $component-active-bg;
+$carousel-control-color : $white;
+$carousel-control-width : 15%;
+$carousel-control-opacity : .5;
+$carousel-control-hover-opacity : .9;
+$carousel-control-transition : opacity .15s ease;
+$carousel-indicator-width : 30px;
+$carousel-indicator-height : 3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer : 3px;
+$carousel-indicator-opacity : .5;
+$carousel-indicator-active-bg : $white;
+$carousel-indicator-active-opacity : 1;
+$carousel-indicator-transition : opacity .6s ease;
+$carousel-caption-width : 70%;
+$carousel-caption-color : $white;
+$carousel-caption-padding-y : 1.25rem;
+$carousel-caption-spacer : 1.25rem;
+$carousel-control-icon-width : 2rem;
+$carousel-control-prev-icon-bg : url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg : url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+$carousel-transition-duration : .6s;
+$carousel-transition : transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+$carousel-dark-indicator-active-bg : $black;
+$carousel-dark-caption-color : $black;
+$carousel-dark-control-icon-filter : invert(1) grayscale(100);
